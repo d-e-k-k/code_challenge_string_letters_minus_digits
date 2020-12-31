@@ -1,4 +1,11 @@
-str = 'z';
+str = 'zA1230Bc!';
+
+//function should return the sum of all the letters with a = A =1 through z = Z = 26 minus the sum of all the numbers.
+//numbers in a row such as "1209" = 1, 2, 0, 9 which sum to be 12
+// special characters such as but not limited to "!@#$!?/" are ignored
+// if string does not contain any letters the sum of all letters should be 0
+// if string does not contain any numbers the sum of all numbers should be 0
+
 
 function lettersMinusNumbers(str) {
 	str = str.toLowerCase();
